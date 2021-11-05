@@ -1,0 +1,10 @@
+{
+	"app.welcome": "Welcome Chritian",
+	
+	"menu.home": "Home",
+	"menu.about": "About",
+	"menu.services": "Services",
+	"menu.portafolio" : "Portafolio",
+	"menu.notes" : "Notes",
+	"menu.network": "Network"
+}

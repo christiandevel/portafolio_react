@@ -1,0 +1,47 @@
+@import './../../styles/globales.scss';
+
+.Main {
+	border: 1px solid red;
+	width: 100%;
+	height: 100vh;
+	padding: 0 1.5rem;
+}
+
+.main-contenedor {
+	position: relative;
+	top: 35%;
+	font-family: $font;
+}
+
+.main-contenedor-title{
+	font-size: 20px;
+}
+.main-contenedor-firs{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.main-contenedor-typed {
+	color: $main-color;
+}
+
+.main-contenedor-text{
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.main-contenedor-button{
+	display: inline-block;
+	background-color: $main-color;
+	border-radius: 30px;
+	padding: 10px 28px;
+	margin-top: 1rem;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+	&:hover {
+		font-weight: bold;
+		color: $main-color;
+		background-color: white;
+	}
+}

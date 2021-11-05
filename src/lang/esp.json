@@ -1,0 +1,10 @@
+{
+	"app.welcome": "Bienvenido",
+	
+	"menu.home": "Inicio",
+	"menu.about": "Acerca de Mi",
+	"menu.services": "Servicios",
+	"menu.portafolio" : "Portafolio",
+	"menu.notes" : "Notas",
+	"menu.network": "Social"
+}

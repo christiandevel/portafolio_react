@@ -1,0 +1,127 @@
+@import "./../../styles/globales.scss";
+
+.header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  z-index: 1;
+}
+
+.header-logo {
+  a {
+    text-decoration: none;
+    font-family: $font;
+    color: $main-color;
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+}
+
+.header-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 70%;
+  margin-left: -100%;
+  transition: all 0.3s linear;
+  background-color: $main-color;
+  z-index: 1;
+  & nav {
+    padding-top: 1.5rem;
+  }
+  &_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    a {
+      font-size: 1.3rem;
+      text-decoration: none;
+      color: black;
+      padding: 0.8rem;
+      width: 100%;
+      font-family: $font;
+      font-weight: bold;
+      text-align: center;
+      &:hover {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+
+
+
+.show {
+  margin-left: 0;
+}
+
+.header-lenguajes {
+  display: flex;
+  justify-content: center;
+
+  & button {
+    border: none;
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    & img {
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    &:hover {
+      border-radius: 50px;
+      background-color: white;
+      transition: 1s;
+      transform: scale(1.1);
+      // padding: 1px;
+    }
+  }
+}
+
+
+
+
+.header-button button {
+  z-index: 10;
+  width: 3rem;
+  height: 1.5rem;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  background: none;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+  & span {
+    width: 2rem;
+    height: 0.3rem;
+    margin-top: 0.2rem;
+    position: relative;
+    background-color: $main-color;
+    transform-origin: 4px 0px;
+    transition: all 0.3s linear;
+  }
+}
+
+.close span {
+  opacity: 1;
+  transform: rotate(45deg) translate(0px, 0px);
+  background: black;
+}
+
+.close span:nth-child(2) {
+  transform: rotate(-45deg) translate(-8px, 5px);
+}
+
+.close span:nth-child(3) {
+  display: none;
+}
