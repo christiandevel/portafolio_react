@@ -1,6 +1,9 @@
 import React, { useRef, useEffect } from "react";
 import Typed from "typed.js";
 
+
+import { FormattedMessage } from "react-intl";
+
 import "./main.scss";
 const MainTyped = () => {
   const typedTarget = useRef(null);
@@ -23,7 +26,8 @@ const MainTyped = () => {
   return (
     <div>
       <span className="main-contenedor-firs">
-        I Am <span className="main-contenedor-typed" ref={typedTarget} />{" "}
+				<FormattedMessage id="main-saludo"/>
+        <span className="main-contenedor-typed" ref={typedTarget} />{" "}
       </span>
     </div>
   );

@@ -1,22 +1,22 @@
 @import "./../../styles/globales.scss";
 
 .header {
-  position: fixed;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
   align-items: center;
+  display: flex;
+  justify-content: space-between;
   padding: 1.5rem;
+  position: fixed;
+  width: 100%;
   z-index: 1;
 }
 
 .header-logo {
   a {
-    text-decoration: none;
-    font-family: $font;
     color: $main-color;
-    font-weight: bold;
+    font-family: $font;
     font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: none;
   }
 }
 
@@ -56,8 +56,6 @@
   }
 }
 
-
-
 .show {
   margin-left: 0;
 }
@@ -82,13 +80,9 @@
       background-color: white;
       transition: 1s;
       transform: scale(1.1);
-      // padding: 1px;
     }
   }
 }
-
-
-
 
 .header-button button {
   z-index: 10;

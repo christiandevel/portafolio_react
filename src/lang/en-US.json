@@ -6,5 +6,11 @@
 	"menu.services": "Services",
 	"menu.portafolio" : "Portafolio",
 	"menu.notes" : "Notes",
-	"menu.network": "Network"
+	"menu.network": "Network",
+	
+	"main-texto1": "Hi there",
+	"main-texto2": "I have more than two years of experiencie working with different tecnologies a passion for development, never stop learning and coffe, let me show you some of my work.",
+	"main-texto3": "Hire me",
+	"main-saludo": "I Am"
+	
 }

@@ -6,5 +6,10 @@
 	"menu.services": "Servicios",
 	"menu.portafolio" : "Portafolio",
 	"menu.notes" : "Notas",
-	"menu.network": "Social"
+	"menu.network": "Social",
+	
+		"main-texto1": "Hola",
+	"main-texto2": "Soy desarrollador con mas de dos año de experencia en desarrollo web, apasonado por la tegnologia y a nunca para de aprender",
+	"main-texto3": "Contactema",
+	"main-saludo": "Soy"
 }

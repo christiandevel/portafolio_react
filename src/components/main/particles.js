@@ -22,7 +22,6 @@ const ViewParticles = () => {
             value: "#000",
           },
         },
-        fpsLimit: 60,
         interactivity: {
           events: {
             onClick: {
@@ -53,12 +52,13 @@ const ViewParticles = () => {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 2,
+            speed: 1,
             straight: false,
+						bounce: false       
           },
           number: {
             density: {
-              enable: true,
+              enable: false,
               value_area: 800,
             },
             value: 60,
@@ -72,6 +72,7 @@ const ViewParticles = () => {
           size: {
             random: true,
             value: 5,
+						
           },
         },
         detectRetina: true,
