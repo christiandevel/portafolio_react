@@ -16,7 +16,7 @@ const ButtonLink = (props) => {
 				
 				<FormattedMessage
 					id={props.text}
-					defaultMessage={props.text}
+					defaultMessage={props.default}
 				/>
       </a>
     </>

@@ -1,5 +1,6 @@
 {
-	"app.welcome": "Welcome Chritian",
+	"global.title.singular": "my",
+  "global.title.plural": "my",
 	
 	"menu.home": "Home",
 	"menu.about": "About",
@@ -17,5 +18,20 @@
 	"about-country": " I'm a Colombian web and mobile developer, with more than two year of experience.",
 	"about-experince": "I have worked with different companies in the development of their websites, corporate platforms and mobile applications, with participation in the design process and user experience, mainly focused on front-end development for digital products, I am passionate about technology, challenges and never stop appearing.",
 	"about-invited": "If you have a job offer, a project proposal or just want to say hello, please contact me.",
-	"about-download": "Download CV"
+	"about-download": "Download CV",
+	
+	"skills-title": "services",
+	"skills-name-1": "developer",
+	"skills-description-1": "Developer with experience in backend, specialized in frontend and with knowledge in different programming languages.",
+	"skills-name-2": "mobile development",
+	"skills-description-2": "Knowledge in mobile development, in different native lenjuages and frameworks.",
+	"skills-name-3": "Responsive Design",
+	"skills-description-3": "Implementation of banners with Responsive design for different devices.",
+	"skills-name-4": "SEO",
+	"skills-description-4": "Knowledge and implementation of SEO, metadata and performance monitoring of your site in browsers.",
+	"skills-name-5": "web development",
+	"skills-description-5": "Publication of several websites for different companies, landings and customer relationship management (CRM).",
+	"skills-name-6": "web components",
+	"skills-description-6": "Implementation of web components, knowledge in different frameworks and libraries."
+	
 }

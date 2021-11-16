@@ -1,5 +1,6 @@
 import React from "react";
 
+import { FormattedMessage } from "react-intl";
 import { listSkills } from "./data";
 
 const ListItem = () => {
@@ -8,13 +9,13 @@ const ListItem = () => {
       {listSkills.map((item, index) => (
         <div key={index} className="services-grid_box">
           <div className="services-grid_box--img">
-            <img src={item.src} />
+            <img src={item.src} alt={item.alt}/>
           </div>
           <div className="services-grid_box--title">
-            <p>{item.name}</p>
+						<FormattedMessage id={item.name} defaultMessage={item.name} />
           </div>
           <div className="services-grid_box--description">
-            <p>{item.description}</p>
+						<FormattedMessage id={item.description} defaultMessage={item.description} />						
           </div>
         </div>
       ))}

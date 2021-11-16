@@ -9,7 +9,7 @@ const Skills = () => {
 	return (
 		<>
 			<section className="services">
-				<TitleSection title="service"/>
+				<TitleSection title="skills-title" tipoTitle="global.title.plural"/>
 				<ListItem />
 			</section>
 		</>

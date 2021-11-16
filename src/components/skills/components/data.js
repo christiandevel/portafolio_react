@@ -8,38 +8,44 @@ import components from './../../../assets/Service-WebComponents.svg'
 export const listSkills = [
 	{
 		"id": 1,
-		"name": "developer",
+		"name": "skills-name-1",
 		"src": developer,
-		"description": "Developer with experience in backend, specialized in frontend and knowledge in different programming languages."
+		"alt": "Desarrollo Fronend",
+		"description": "skills-description-1"
 	},
 	{
 		"id": 2,
-		"name": "mobile",
+		"name": "skills-name-2",
 		"src": mobile,
-		"description": "Knowledge in mobile development, in different native lenjuages and frameworks."
+		"alt": "Desarrollo Mobile",
+		"description": "skills-description-2"
 	},
 	{
 		"id": 3,
-		"name": "responive",
+		"name": "skills-name-3",
 		"src": responsive,
-		"description": "Implementation of banners in responsive design theme for different devices."
+		"alt": "Desarrollo Responsive",
+		"description": "skills-description-3"
 	},
 	{
 		"id": 4,
-		"name": "seo",
+		"name": "skills-name-4",
 		"src": seo,
-		"description": "Knowledge and application in web positioning, meta data management and performance of your website."
+		"alt": "Seo",
+		"description": "skills-description-4"
 	},
 	{
 		"id": 5,
-		"name": "web",
+		"name": "skills-name-5",
 		"src": web,
-		"description": "Publishing of several web sites for different companies, landings and internal web sites"
+		"alt": "Desarrollo web",
+		"description": "skills-description-5"
 	},
 	{
 		"id": 6,
-		"name": "web components",
+		"name": "skills-name-6",
 		"src": components,
-		"description": "Implementation of web components, knowledge in different framworks and liberarias."
+		"alt": "Web components",
+		"description": "skills-description-6"
 	}
 ]

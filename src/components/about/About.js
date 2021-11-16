@@ -15,7 +15,7 @@ const About = () => {
         <Perfil />
         <div className="about-info">
           <Descripcion />
-          <ButtonLink text="about-download" href={cv} download={cv} target="_blank"/>
+          <ButtonLink text="about-download" default="Download CV" href={cv} download={cv} target="_blank"/>
         </div>
       </section>
     </>
