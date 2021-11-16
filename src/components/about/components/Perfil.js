@@ -5,7 +5,7 @@ import perfil from './../../../assets/perfil.png'
 const Perfil = () => {
 	return (
 		<div className="about-img">
-			<img src={perfil} alt="Christian Moreno Photo profile" />
+			<img src={perfil} alt="Christian Moreno profile" />
 		</div>
 	)
 }
