@@ -1,9 +1,15 @@
 import React from 'react'
 
+import { FormattedMessage } from "react-intl";
 const Greetings = () => {
 	return (
 		<div className="grettings">
-			<p>Echo con ♥ por ©ChiristianMoreno</p>
+			<p>
+				<FormattedMessage 
+					id="gretings"
+					defaultMessage="gretings"
+				/>
+				</p>
 		</div>
 	)
 }

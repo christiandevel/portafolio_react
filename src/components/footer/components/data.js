@@ -1,3 +1,5 @@
+import cv from './../../../assets/Documents/HV_ChristianAndres_Desarrollador.pdf'
+
 import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons'
@@ -26,7 +28,7 @@ export const socialMedia = [
 		icon: faAddressCard,
 		link: "link",
 		name: "CV",
-		url: "asd"
+		url: cv
 	},
 	{
 		id: 4,
