@@ -15,74 +15,74 @@ import segurosnovus from './../../../assets/portafolio/segurosnovus.png'
 export const listPortafolio = [
 	{
 		"id": 0,
-		"filter": "all"
+		"filter": "portafolio-all-filter"
 	},
 	{
 		"id": 1,
-		"filter": "Practica",
+		"filter": "portafolio-practice-filter",
 		"src": boostrap,
 		"link": "link de imagen",
 		"code": "codigo del proyecto"
 	},
 	{
 		"id": 2,
-		"filter": "Practica",
+		"filter": "portafolio-practice-filter",
 		"src": google,
 		"link": "link de imagen",
 		"code": "codigo del proyecto"
 	},
 	{
 		"id": 3,
-		"filter": "Practica",
+		"filter": "portafolio-practice-filter",
 		"src": juego,
 		"link": "link de imagen",
 		"code": "codigo del proyecto"
 	},
 	{
 		"id": 4,
-		"filter": "Practica",
+		"filter": "portafolio-practice-filter",
 		"src": materizalize,
 		"link": "link de imagen",
 		"code": "codigo del proyecto"
 	},
 	{
 		"id": 5,
-		"filter": "Practica",
+		"filter": "portafolio-practice-filter",
 		"src": PlaziGame,
 		"link": "link de imagen",
 		"code": "codigo del proyecto"
 	},
 	{
 		"id": 6,
-		"filter": "Practica",
+		"filter": "portafolio-practice-filter",
 		"src": RiackAndMorty,
 		"link": "link de imagen",
 		"code": "codigo del proyecto"
 	},
 	{
 		"id": 7,
-		"filter": "Web",
+		"filter": "portafolio-web-filter",
 		"src": gopass,
 		"link": "link de imagen",
 		"code": "codigo del proyecto"
 	},
 	{
 		"id": 8,
-		"filter": "Web",
+		"filter": "portafolio-web-filter",
 		"src": LandingGopass,
 		"link": "link de imagen",
 		"code": "codigo del proyecto"
 	},
 	{
 		"id": 9,
-		"filter": "Web",
+		"filter": "portafolio-web-filter",
 		"src": LandigPromo,
 		"link": "link de imagen",
 		"code": "codigo del proyecto"
 	},
 	{
 		"id": 10,
-		"filter": "Web",
+		"filter": "portafolio-web-filter",
 		"src": segurosnovus,
 		"link": "link de imagen",
 		"code": "codigo del proyecto"

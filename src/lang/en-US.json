@@ -32,5 +32,12 @@
   "skills-name-5": "web development",
   "skills-description-5": "Publication of several websites for different companies, landings and customer relationship management (CRM).",
   "skills-name-6": "web components",
-  "skills-description-6": "Implementation of web components, knowledge in different frameworks and libraries."
+  "skills-description-6": "Implementation of web components, knowledge in different frameworks and libraries.",
+	
+	"portafolio-title": "portfolio",
+	"portafolio-all-filter": "All",
+	"portafolio-web-filter": "Web",
+	"portafolio-mobile-filter": "Mobile",
+	"portafolio-practice-filter": "Practice"
+	
 }

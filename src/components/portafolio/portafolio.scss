@@ -1,7 +1,11 @@
 @import "./../../styles/globales.scss";
 
+.portafolio {
+	padding: 5rem 0;
+}
+
 .portafolio-filters {
-  padding: 5%;
+  padding: 2% 5%;
   width: 100%;
   display: flex;
   justify-content: space-evenly;

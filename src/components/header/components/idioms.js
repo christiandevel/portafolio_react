@@ -13,10 +13,10 @@ const Idioms = (props) => {
     <>
       <div className="header-lenguajes">
         <button onClick={() => idioma.establecerLenjuage("es-MX")}>
-          <img src={esp} />
+          <img src={esp} alt="cambiar idioma español"/>
         </button>
         <button onClick={() => idioma.establecerLenjuage("en-US")}>
-          <img src={eng} />
+          <img src={eng} alt="change languaje english"/>
         </button>
       </div>
     </>

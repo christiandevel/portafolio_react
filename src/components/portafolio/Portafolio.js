@@ -33,7 +33,7 @@ const Portafolio = () => {
 
   return (
     <section className="portafolio">
-      <TitleSection title="portafolio" />
+      <TitleSection title="portafolio-title" tipoTitle="global.title.singular"  />
       <div className="portafolio-filters">
         {getFiltros(listPortafolio).map((item, ind) => (
           <ButtonLink
