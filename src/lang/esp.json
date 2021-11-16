@@ -42,6 +42,10 @@
 	
 	"blog-title": "notas",
 	"blog-read": "Leer mas",
-	"blog-category-develoment": "desarrollo"
+	"blog-category-develoment": "desarrollo",
+	
+	"blog-webpack": "Webpack es un paquete de módulos estáticos para aplicaciones JS modernas: Construye un gráfico de dependencias que mapea cada módulo a uno o más módulos según corresponda.",
+	"blog-typescript": "Typescript Es un super conjunto tipado de javascript. Que compila a JS y que podemos usarlo en cualquier navegador o host.",
+	"blog-linkedin" : "LinkedIn Es la red más usada a nivel mundial para buscar candidatos, Cuanto mejor sea tu reputación mejores serán tus ventas, la confianza y la fidelidad de tus usuarios"
 	
 }

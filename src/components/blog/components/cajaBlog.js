@@ -30,7 +30,7 @@ const CajaBlog = () => {
                 </span>
               </div>
               <div className="card_body-descripcion">
-                <span>{blog.description}</span>
+								<FormattedMessage id={blog.description} defaultMessage={blog.description}  />
               </div>
             </div>
             <div className="card_footer">
