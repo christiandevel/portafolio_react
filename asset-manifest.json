@@ -1,20 +1,37 @@
 {
   "files": {
-    "main.css": "/portafolio_react/static/css/main.83c992d4.chunk.css",
-    "main.js": "/portafolio_react/static/js/main.40a59e78.chunk.js",
-    "main.js.map": "/portafolio_react/static/js/main.40a59e78.chunk.js.map",
+    "main.css": "/portafolio_react/static/css/main.15a8fd1d.chunk.css",
+    "main.js": "/portafolio_react/static/js/main.18936607.chunk.js",
+    "main.js.map": "/portafolio_react/static/js/main.18936607.chunk.js.map",
     "runtime-main.js": "/portafolio_react/static/js/runtime-main.7d07882d.js",
     "runtime-main.js.map": "/portafolio_react/static/js/runtime-main.7d07882d.js.map",
-    "static/js/2.ca0d1721.chunk.js": "/portafolio_react/static/js/2.ca0d1721.chunk.js",
-    "static/js/2.ca0d1721.chunk.js.map": "/portafolio_react/static/js/2.ca0d1721.chunk.js.map",
+    "static/js/2.9799cf08.chunk.js": "/portafolio_react/static/js/2.9799cf08.chunk.js",
+    "static/js/2.9799cf08.chunk.js.map": "/portafolio_react/static/js/2.9799cf08.chunk.js.map",
     "index.html": "/portafolio_react/index.html",
-    "static/css/main.83c992d4.chunk.css.map": "/portafolio_react/static/css/main.83c992d4.chunk.css.map",
-    "static/js/2.ca0d1721.chunk.js.LICENSE.txt": "/portafolio_react/static/js/2.ca0d1721.chunk.js.LICENSE.txt"
+    "static/css/main.15a8fd1d.chunk.css.map": "/portafolio_react/static/css/main.15a8fd1d.chunk.css.map",
+    "static/js/2.9799cf08.chunk.js.LICENSE.txt": "/portafolio_react/static/js/2.9799cf08.chunk.js.LICENSE.txt",
+    "static/media/Landign-gopass.824a5fae.png": "/portafolio_react/static/media/Landign-gopass.824a5fae.png",
+    "static/media/Materialize.d9e98e7b.png": "/portafolio_react/static/media/Materialize.d9e98e7b.png",
+    "static/media/PlatziGame.65975346.png": "/portafolio_react/static/media/PlatziGame.65975346.png",
+    "static/media/Rick-And-Morty.6aa8b753.png": "/portafolio_react/static/media/Rick-And-Morty.6aa8b753.png",
+    "static/media/Service-Develoment.15296879.svg": "/portafolio_react/static/media/Service-Develoment.15296879.svg",
+    "static/media/Service-Mobile.6c08988b.svg": "/portafolio_react/static/media/Service-Mobile.6c08988b.svg",
+    "static/media/Service-Responsive.90ee2e30.svg": "/portafolio_react/static/media/Service-Responsive.90ee2e30.svg",
+    "static/media/Service-Seo.e4b509c7.svg": "/portafolio_react/static/media/Service-Seo.e4b509c7.svg",
+    "static/media/Service-Web.b356f129.svg": "/portafolio_react/static/media/Service-Web.b356f129.svg",
+    "static/media/Service-WebComponents.ca70c6b1.svg": "/portafolio_react/static/media/Service-WebComponents.ca70c6b1.svg",
+    "static/media/boostrap.0fd3b395.png": "/portafolio_react/static/media/boostrap.0fd3b395.png",
+    "static/media/google.ce7be6fd.png": "/portafolio_react/static/media/google.ce7be6fd.png",
+    "static/media/gopass.54dc37a8.png": "/portafolio_react/static/media/gopass.54dc37a8.png",
+    "static/media/landign-promo-gopass.13a4cc5b.png": "/portafolio_react/static/media/landign-promo-gopass.13a4cc5b.png",
+    "static/media/notes_webpack.0824210c.png": "/portafolio_react/static/media/notes_webpack.0824210c.png",
+    "static/media/perfil.8405c967.png": "/portafolio_react/static/media/perfil.8405c967.png",
+    "static/media/segurosnovus.41173d8f.png": "/portafolio_react/static/media/segurosnovus.41173d8f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7d07882d.js",
-    "static/js/2.ca0d1721.chunk.js",
-    "static/css/main.83c992d4.chunk.css",
-    "static/js/main.40a59e78.chunk.js"
+    "static/js/2.9799cf08.chunk.js",
+    "static/css/main.15a8fd1d.chunk.css",
+    "static/js/main.18936607.chunk.js"
   ]
 }
