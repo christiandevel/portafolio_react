@@ -22,15 +22,12 @@ const CajaBlog = () => {
               <span className="card_body-title"> {blog.title} </span>
               <div className="card_body-info">
                 <span>
-								<FormattedDate
-									value={blog.data}
-								
-									month="long"
-									day="numeric"
-								/>
-								</span>
+                  <FormattedDate value={blog.data} month="long" day="numeric" />
+                </span>
                 <span>|</span>
-                <span>{blog.area}</span>
+                <span>
+                  <FormattedMessage id={blog.area} defaultMessage={blog.area} />
+                </span>
               </div>
               <div className="card_body-descripcion">
                 <span>{blog.description}</span>
