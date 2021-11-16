@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portafolio_react/static/css/main.5f62305c.chunk.css",
-    "main.js": "/portafolio_react/static/js/main.b6019599.chunk.js",
-    "main.js.map": "/portafolio_react/static/js/main.b6019599.chunk.js.map",
+    "main.css": "/portafolio_react/static/css/main.9c48641a.chunk.css",
+    "main.js": "/portafolio_react/static/js/main.3eedcfad.chunk.js",
+    "main.js.map": "/portafolio_react/static/js/main.3eedcfad.chunk.js.map",
     "runtime-main.js": "/portafolio_react/static/js/runtime-main.7d07882d.js",
     "runtime-main.js.map": "/portafolio_react/static/js/runtime-main.7d07882d.js.map",
     "static/js/2.8e3ff9e6.chunk.js": "/portafolio_react/static/js/2.8e3ff9e6.chunk.js",
     "static/js/2.8e3ff9e6.chunk.js.map": "/portafolio_react/static/js/2.8e3ff9e6.chunk.js.map",
     "index.html": "/portafolio_react/index.html",
-    "static/css/main.5f62305c.chunk.css.map": "/portafolio_react/static/css/main.5f62305c.chunk.css.map",
+    "static/css/main.9c48641a.chunk.css.map": "/portafolio_react/static/css/main.9c48641a.chunk.css.map",
     "static/js/2.8e3ff9e6.chunk.js.LICENSE.txt": "/portafolio_react/static/js/2.8e3ff9e6.chunk.js.LICENSE.txt",
     "static/media/HV_ChristianAndres_Desarrollador.b5d92843.pdf": "/portafolio_react/static/media/HV_ChristianAndres_Desarrollador.b5d92843.pdf",
     "static/media/Landign-gopass.824a5fae.png": "/portafolio_react/static/media/Landign-gopass.824a5fae.png",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.7d07882d.js",
     "static/js/2.8e3ff9e6.chunk.js",
-    "static/css/main.5f62305c.chunk.css",
-    "static/js/main.b6019599.chunk.js"
+    "static/css/main.9c48641a.chunk.css",
+    "static/js/main.3eedcfad.chunk.js"
   ]
 }
