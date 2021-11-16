@@ -8,8 +8,10 @@ import CajaBlog from './components/cajaBlog'
 const Blog = () => {
 	return (
 		<>
+		<section className="notes">
 			<TitleSection title="notes"/>
 			<CajaBlog/>
+		</section>
 			
 		</>
 	)

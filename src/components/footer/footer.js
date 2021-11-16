@@ -9,7 +9,7 @@ import './footer.scss'
 
 const Footer = () => {
 	return (
-		<footer>
+		<footer className="network">
 			<TitleSection title="media"/>
 			<Icons />
 			<Greetings />
