@@ -3,6 +3,8 @@ import React from "react";
 import ButtonLink from "./../../utils/buttonLink";
 import { infoBlog } from "./data";
 
+import { FormattedMessage, FormattedDate } from "react-intl";
+
 const CajaBlog = () => {
   return (
     <>
@@ -19,7 +21,14 @@ const CajaBlog = () => {
             <div className="card_body">
               <span className="card_body-title"> {blog.title} </span>
               <div className="card_body-info">
-                <span>{blog.data}</span>
+                <span>
+								<FormattedDate
+									value={blog.data}
+								
+									month="long"
+									day="numeric"
+								/>
+								</span>
                 <span>|</span>
                 <span>{blog.area}</span>
               </div>
