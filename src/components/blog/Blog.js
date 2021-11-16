@@ -9,7 +9,7 @@ const Blog = () => {
 	return (
 		<>
 		<section className="notes">
-			<TitleSection title="notes"/>
+			<TitleSection title="blog-title" tipoTitle="global.title.plural"/>
 			<CajaBlog/>
 		</section>
 			

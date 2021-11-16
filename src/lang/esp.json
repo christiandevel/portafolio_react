@@ -38,6 +38,8 @@
 	"portafolio-all-filter": "Todos",
 	"portafolio-web-filter": "Web",
 	"portafolio-mobile-filter": "Mobile",
-	"portafolio-practice-filter": "Practica"
+	"portafolio-practice-filter": "Practica",
+	
+	"blog-title": "notas"
 	
 }

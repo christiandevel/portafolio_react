@@ -16,8 +16,8 @@ const Icons = () => {
     <>
       <div className="iconos">
         <div className="iconos-caja">
-          {iconFront.map((icono) => (
-            <div className="iconos-caja_content">
+          {iconFront.map((icono, ind) => (
+            <div key={ind} className="iconos-caja_content">
               <FontAwesomeIcon
                 icon={[`${icono.prefix}`, `${icono.icon}`]}
                 size="3x"
@@ -28,8 +28,8 @@ const Icons = () => {
           ))}
         </div>
         <div className="iconos-caja">
-          {iconFrame.map((icono) => (
-            <div className="iconos-caja_content">
+          {iconFrame.map((icono, ind) => (
+            <div key={ind} className="iconos-caja_content">
               <FontAwesomeIcon
                 icon={[`${icono.prefix}`, `${icono.icon}`]}
                 size="3x"
@@ -40,8 +40,8 @@ const Icons = () => {
           ))}
         </div>
         <div className="iconos-caja">
-          {listBD.map((icono) => (
-            <div className="iconos-caja_content">
+          {listBD.map((icono, ind) => (
+            <div key={ind} className="iconos-caja_content">
               <FontAwesomeIcon
                 icon={[`${icono.prefix}`, `${icono.icon}`]}
                 size="3x"

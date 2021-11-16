@@ -47,7 +47,7 @@ const Portafolio = () => {
       <div className="portafolio-images">
         {filter.map((proyecto, index) => (
           <div key={index} className="portafolio-images_caja">
-            <img src={proyecto.src} />
+            <img src={proyecto.src} alt="proyecto"/>
           </div>
         ))}
       </div>
