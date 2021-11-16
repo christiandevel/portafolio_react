@@ -3,15 +3,15 @@ import "./main.scss";
 
 import MainTyped from "./mainTyped";
 import { FormattedMessage } from "react-intl";
-import ViewParticles from './particles';
+import ViewParticles from "./particles";
+import { Link } from "react-scroll";
 
 const Main = () => {
   return (
     <section className="home">
       <div className="main" id="main">
-				{/* <div id="tsparticles" className="tsparticles"> */}
-        	<ViewParticles/>
-				{/* </div> */}
+        <ViewParticles />
+
         <div className="main-contenedor">
           <p className="main-contenedor-title">
             <FormattedMessage id="main-greting" />
@@ -21,9 +21,15 @@ const Main = () => {
             {" "}
             <FormattedMessage id="main-description" />
           </p>
-          <a className="main-contenedor-button" href="#">
+          <Link
+            className="main-contenedor-button"
+            to="about"
+            smooth={true}
+            duration={3000}
+            spy={true}
+          >
             <FormattedMessage id="main-button" />
-          </a>
+          </Link>
         </div>
       </div>
     </section>
