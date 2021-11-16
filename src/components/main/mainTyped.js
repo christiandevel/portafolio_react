@@ -26,7 +26,7 @@ const MainTyped = () => {
   return (
     <div>
       <span className="main-contenedor-firs">
-				<FormattedMessage id="main-saludo"/>
+				<FormattedMessage id="main-profession"/>
         <span className="main-contenedor-typed" ref={typedTarget} />{" "}
       </span>
     </div>

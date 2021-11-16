@@ -1,22 +1,29 @@
-import React from 'react'
+import React from "react";
 
-import Particles from 'react-tsparticles';
+import styled from 'styled-components'
+import Particles from "react-tsparticles";
 
 const ViewParticles = () => {
+  const particlesInit = (main) => {
+    console.log(main);
+  };
+
+  const particlesLoaded = (container) => {
+    console.log(container);
+  };
 	
-	const particlesInit = (main) => {
-		console.log(main)
-	}
 	
-	const particlesLoaded = (container) => {
-		console.log(container)
-	}
-	return (
-		<Particles 
-		id="tsparticles"
+
+
+  return (
+    <Particles
+      id="tsparticles"
+			width= "100%"
+			canvasClassName="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
+				fullScreen: false,
         background: {
           color: {
             value: "#000",
@@ -54,14 +61,14 @@ const ViewParticles = () => {
             random: false,
             speed: 1,
             straight: false,
-						bounce: false       
+            bounce: false,
           },
           number: {
             density: {
               enable: false,
               value_area: 800,
             },
-            value: 60,
+            value: 10,
           },
           opacity: {
             value: 0.5,
@@ -72,13 +79,12 @@ const ViewParticles = () => {
           size: {
             random: true,
             value: 5,
-						
           },
         },
         detectRetina: true,
       }}
-		/>
-	)
-}
+    />
+  );
+};
 
-export default ViewParticles
+export default ViewParticles;

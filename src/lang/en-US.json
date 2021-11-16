@@ -8,9 +8,9 @@
 	"menu.notes" : "Notes",
 	"menu.network": "Social Networks",
 	
-	"main-texto1": "Hi there",
-	"main-texto2": "I have more than two years of experiencie working with different tecnologies a passion for development, never stop learning and coffe, let me show you some of my work.",
-	"main-texto3": "Hire me",
-	"main-saludo": "I Am"
+	"main-greting": "Hi there",
+	"main-profession": "I Am ",
+	"main-description": "I have more than two years of experience working with different programming languages, focused on frontend development, with knowledge in backend and mobile development. I am passionate about technology and never stop learning. Let me show you my trajectory.",
+	"main-button": "see more"
 	
 }

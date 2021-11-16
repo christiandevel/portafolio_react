@@ -8,8 +8,8 @@
 	"menu.notes" : "Notas",
 	"menu.network": "Redes Sociales",
 	
-		"main-texto1": "Hola",
-	"main-texto2": "Soy desarrollador con mas de dos año de experencia en desarrollo web, apasonado por la tegnologia y a nunca para de aprender",
-	"main-texto3": "Contactema",
-	"main-saludo": "Soy"
+	"main-greting": "Hola a todos",
+	"main-profession": "Soy ",
+	"main-description": "Cuento con mas de dos año de experencia trabajando con diferentes lenjuages de progragramacion, enfocado al desarrollo frontend, con conocimento en backend y desarrollo movil. Un apasionado por la tecnologia y a nunca para de aprender. Dejame mostrate mi trayectoria",
+	"main-button": "ver mas"
 }

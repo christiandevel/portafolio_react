@@ -1,22 +1,36 @@
 @import './../../styles/globales.scss';
 
-.Main {
+.main {
 	width: 100%;
 	height: 100vh;
 	padding: 0 1.5rem;
+	position: relative;
 }
 
+#tsparticles{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 0;
+}
+
+
 .main-contenedor {
-	position: relative;
-	top: 35%;
+	position: absolute;
+	top: 30%;
 	font-family: $font;
+	z-index: 1;
 }
 
 .main-contenedor-title{
-	font-size: 20px;
+	font-size: 1.3rem;
 }
 .main-contenedor-firs{
-	font-size: 28px;
+	font-size: 1.8rem;
 	font-weight: bold;
 }
 
@@ -25,8 +39,8 @@
 }
 
 .main-contenedor-text{
-	font-size: 18px;
-	line-height: 22px;
+	font-size: 1rem;
+	line-height: 1.5rem;
 }
 
 .main-contenedor-button{
@@ -38,6 +52,8 @@
 	cursor: pointer;
 	text-decoration: none;
 	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
 	&:hover {
 		font-weight: bold;
 		color: $main-color;
