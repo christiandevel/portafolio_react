@@ -10,7 +10,8 @@ export const infoBlog = [
 		data: "August 24, 2021",
 		area: "develoment",
 		img: webpack,
-		description: "Webpack is a static module package for modern JS applications: It builds a dependency graph that maps each module to one or more modules as appropriate."
+		description: "Webpack is a static module package for modern JS applications: It builds a dependency graph that maps each module to one or more modules as appropriate.",
+		url: "https://www.notion.so/Webpack-e79874a6974d44ddafeda64217610fb0"
 	},
 	{
 		id: 2,
@@ -19,7 +20,8 @@ export const infoBlog = [
 		data: "October 24, 2021",
 		area: "develoment",
 		img: typescritp,
-		description: "Webpack is a static module package for modern JS applications: It builds a dependency graph that maps each module to one or more modules as appropriate."
+		description: "Webpack is a static module package for modern JS applications: It builds a dependency graph that maps each module to one or more modules as appropriate.",
+		url: "https://www.notion.so/Typescript-c71a26bf9ae94705be011d47aa571466"
 	},
 	{
 		id: 3,
@@ -28,6 +30,7 @@ export const infoBlog = [
 		data: "Nevember 24, 2021",
 		area: "develoment",
 		img: linkedin,
-		description: "Webpack is a static module package for modern JS applications: It builds a dependency graph that maps each module to one or more modules as appropriate."
+		description: "Webpack is a static module package for modern JS applications: It builds a dependency graph that maps each module to one or more modules as appropriate.",
+		url: "https://www.notion.so/Curso-de-Optimizaci-n-del-Perfil-de-LinkedIn-6024fbcb2611414aba5a9b1b33f54cd5"
 	}
 ]

@@ -28,7 +28,7 @@ const CajaBlog = () => {
               </div>
             </div>
             <div className="card_footer">
-              <ButtonLink text="blog-read" />
+              <ButtonLink text="blog-read" href={blog.url} target="_black" />
             </div>
           </div>
         ))}
