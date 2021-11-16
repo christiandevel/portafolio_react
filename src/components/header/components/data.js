@@ -32,7 +32,7 @@ export const opcionesMenu = [
 		int: "menu.notes",
 		default: 'Notes',
 		id: 5,
-		to: "notes"
+		to: "blog"
 	},
 	{
 		nombre: 'Network',
