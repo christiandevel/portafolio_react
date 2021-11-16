@@ -8,7 +8,7 @@ import CajaBlog from './components/cajaBlog'
 const Blog = () => {
 	return (
 		<>
-		<section className="notes">
+		<section className="blog">
 			<TitleSection title="blog-title" tipoTitle="global.title.plural"/>
 			<CajaBlog/>
 		</section>

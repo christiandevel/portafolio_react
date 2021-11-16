@@ -1,35 +1,38 @@
 import React from "react";
 
-import ButtonLink from './../../utils/buttonLink'
+import ButtonLink from "./../../utils/buttonLink";
 import { infoBlog } from "./data";
 
 const CajaBlog = () => {
   return (
     <>
-      {infoBlog.map((blog, ind) => (
-        <div key={ind} className="blog-container">
-          <div className="blog-container_img">
-            <img src={blog.img} />
+      <div className="notes">
+        {infoBlog.map((blog, ind) => (
+          <div key={ind} className="card">
+            <div className="card-header">
+              <img
+                src={blog.img}
+                alt={`Notes sobre ${blog.alt}`}
+                className="card__image"
+              />
+            </div>
+            <div className="card_body">
+              <span className="card_body-title"> {blog.title} </span>
+              <div className="card_body-info">
+                <span>{blog.data}</span>
+                <span>|</span>
+                <span>{blog.area}</span>
+              </div>
+              <div className="card_body-descripcion">
+                <span>{blog.description}</span>
+              </div>
+            </div>
+            <div className="card_footer">
+              <ButtonLink text="blog-read" />
+            </div>
           </div>
-          <div className="blog-container_info">
-            <div className="blog-container_info-title">
-              <p>{blog.title}</p>
-            </div>
-            <div className="blog-container_info-date">
-              <span>icon</span>
-              <span>{blog.data}</span>
-              <span>|</span>
-              <span>{blog.area}</span>
-            </div>
-            <div className="blog-container_info-description">
-              <p>{blog.description}</p>
-            </div>
-					<div className="blog-container_info-button">
-						<ButtonLink text="read more"/>
-					</div>
-          </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </>
   );
 };
