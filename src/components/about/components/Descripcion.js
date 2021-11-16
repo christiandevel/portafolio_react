@@ -13,7 +13,10 @@ const Descripcion = () => {
         <FormattedMessage id="about-country" defaultMessage="about-country" />
       </p>
       <p className="about-info_description">
-        <FormattedMessage id="about-experince" defaultMessage="about-experince" />
+        <FormattedMessage
+          id="about-experince"
+          defaultMessage="about-experince"
+        />
       </p>
       <p className="about-info_contact">
         <FormattedMessage id="about-invited" defaultMessage="about-invited" />
