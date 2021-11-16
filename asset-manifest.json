@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portafolio_react/static/css/main.bf4b89c5.chunk.css",
-    "main.js": "/portafolio_react/static/js/main.e9bdafd2.chunk.js",
-    "main.js.map": "/portafolio_react/static/js/main.e9bdafd2.chunk.js.map",
+    "main.css": "/portafolio_react/static/css/main.07325eec.chunk.css",
+    "main.js": "/portafolio_react/static/js/main.b181f0fd.chunk.js",
+    "main.js.map": "/portafolio_react/static/js/main.b181f0fd.chunk.js.map",
     "runtime-main.js": "/portafolio_react/static/js/runtime-main.7d07882d.js",
     "runtime-main.js.map": "/portafolio_react/static/js/runtime-main.7d07882d.js.map",
-    "static/js/2.20ea1ffa.chunk.js": "/portafolio_react/static/js/2.20ea1ffa.chunk.js",
-    "static/js/2.20ea1ffa.chunk.js.map": "/portafolio_react/static/js/2.20ea1ffa.chunk.js.map",
+    "static/js/2.1633e08a.chunk.js": "/portafolio_react/static/js/2.1633e08a.chunk.js",
+    "static/js/2.1633e08a.chunk.js.map": "/portafolio_react/static/js/2.1633e08a.chunk.js.map",
     "index.html": "/portafolio_react/index.html",
-    "static/css/main.bf4b89c5.chunk.css.map": "/portafolio_react/static/css/main.bf4b89c5.chunk.css.map",
-    "static/js/2.20ea1ffa.chunk.js.LICENSE.txt": "/portafolio_react/static/js/2.20ea1ffa.chunk.js.LICENSE.txt",
+    "static/css/main.07325eec.chunk.css.map": "/portafolio_react/static/css/main.07325eec.chunk.css.map",
+    "static/js/2.1633e08a.chunk.js.LICENSE.txt": "/portafolio_react/static/js/2.1633e08a.chunk.js.LICENSE.txt",
     "static/media/Landign-gopass.824a5fae.png": "/portafolio_react/static/media/Landign-gopass.824a5fae.png",
     "static/media/Materialize.d9e98e7b.png": "/portafolio_react/static/media/Materialize.d9e98e7b.png",
     "static/media/PlatziGame.65975346.png": "/portafolio_react/static/media/PlatziGame.65975346.png",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7d07882d.js",
-    "static/js/2.20ea1ffa.chunk.js",
-    "static/css/main.bf4b89c5.chunk.css",
-    "static/js/main.e9bdafd2.chunk.js"
+    "static/js/2.1633e08a.chunk.js",
+    "static/css/main.07325eec.chunk.css",
+    "static/js/main.b181f0fd.chunk.js"
   ]
 }
