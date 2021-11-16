@@ -46,6 +46,10 @@
 	
 	"blog-webpack" : "Webpack is a static module package for modern JS applications: It builds a dependency graph that maps each module to one or more other modules as appropriate.",
 	"blog-typescript": "Typescript is a super typed set of javascript. It compiles to JS and we can use it in any browser or host.",
-	"blog-linkedin" : "LinkedIn is the most used network worldwide to search for candidates. The better your reputation, the better your sales, trust and loyalty of your users"
+	"blog-linkedin" : "LinkedIn is the most used network worldwide to search for candidates. The better your reputation, the better your sales, trust and loyalty of your users",
+	
+	
+	"social-media-title-white": "networks",
+	"social-media-title-green": "social"
 	
 }

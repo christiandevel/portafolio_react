@@ -7,9 +7,9 @@ const Icons = () => {
   return (
     <>
 		<div className="footer-icons">
-      {socialMedia.map((media) => (
-        <div className="footer-icons_box">
-          <a className="footer-icons_box-icon">
+      {socialMedia.map((media, ind) => (
+        <div key={ind} className="footer-icons_box">
+          <a className="footer-icons_box-icon" href={media.url} target="_blank">
             <FontAwesomeIcon icon={media.icon} size="2x"/>
           </a >
           <span className="footer-icons_box-title">{media.name}</span>

@@ -11,36 +11,42 @@ export const socialMedia = [
 		id: 1,
 		icon: faEnvelopeOpenText,
 		link: "link",
-		name: "email"
+		name: "email",
+		url: "mailto:christianmorenoti@gmail.com?Subject=Quiero%saber%mas"
 	},
 	{
 		id: 2,
 		icon: faPhone,
 		link: "link",
-		name: "phone"
+		name: "phone",
+		url: "tel: +573202269163"
 	},
 	{
 		id: 3,
 		icon: faAddressCard,
 		link: "link",
-		name: "CV"
+		name: "CV",
+		url: "asd"
 	},
 	{
 		id: 4,
 		icon: faTwitter,
 		link: "link",
-		name: "twitter"
+		name: "twitter",
+		url: "https://twitter.com/chrisceba"
 	},
 	{
 		id: 5,
 		icon: faGithub,
 		link: "link",
-		name: "github"
+		name: "github",
+		url: "https://github.com/christiandevel"
 	},
 	{
 		id: 1,
 		icon: faItunesNote,
 		link: "link",
-		name: "notion"
+		name: "notion",
+		url: "https://www.notion.so/Welcome-to-my-Notes-1b38d0321763440dba30bdeddd847b57"
 	},
 ]

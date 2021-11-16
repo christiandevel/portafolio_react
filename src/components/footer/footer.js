@@ -10,7 +10,7 @@ import './footer.scss'
 const Footer = () => {
 	return (
 		<footer className="network">
-			<TitleSection title="media"/>
+			<TitleSection title="social-media-title-white" tipoTitle="social-media-title-green"/>
 			<Icons />
 			<Greetings />
 		</footer>
