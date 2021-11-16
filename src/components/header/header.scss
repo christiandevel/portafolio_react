@@ -48,19 +48,18 @@
       font-family: $font;
       font-weight: bold;
       text-align: center;
-			cursor: pointer;
+      cursor: pointer;
       &:hover {
         background-color: black;
         color: white;
       }
-			&.activeLink {
-				background-color: black;
-				color: white;
-			}
+      &.activeLink {
+        background-color: black;
+        color: white;
+      }
     }
   }
 }
-
 
 .show {
   margin-left: 0;
@@ -124,10 +123,4 @@
 
 .close span:nth-child(3) {
   display: none;
-}
-
-
-
-.activeLink {
-
 }

@@ -1,29 +1,21 @@
 import React from "react";
 
-import styled from 'styled-components'
 import Particles from "react-tsparticles";
 
 const ViewParticles = () => {
-  const particlesInit = (main) => {
-    console.log(main);
-  };
+  const particlesInit = (main) => {};
 
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
-	
-	
-
+  const particlesLoaded = (container) => {};
 
   return (
     <Particles
       id="tsparticles"
-			width= "100%"
-			canvasClassName="tsparticles"
+      width="100%"
+      canvasClassName="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-				fullScreen: false,
+        fullScreen: false,
         background: {
           color: {
             value: "#000",
