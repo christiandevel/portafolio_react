@@ -1,5 +1,6 @@
 import React from "react";
 
+import { FormattedMessage } from "react-intl";
 import "./styles/buttonLink.scss";
 
 const ButtonLink = (props) => {
@@ -12,7 +13,11 @@ const ButtonLink = (props) => {
         onClick={props.evento}
         target={props.target}
       >
-        {props.text}
+				
+				<FormattedMessage
+					id={props.text}
+					defaultMessage={props.text}
+				/>
       </a>
     </>
   );
