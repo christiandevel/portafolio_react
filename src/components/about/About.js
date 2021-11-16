@@ -1,5 +1,7 @@
 import React from "react";
 
+import cv from './../../assets/Documents/HV_ChristianAndres_Desarrollador.pdf'
+
 import './about.scss'
 
 import Perfil from "./components/Perfil";
@@ -13,7 +15,7 @@ const About = () => {
         <Perfil />
         <div className="about-info">
           <Descripcion />
-          <ButtonLink text="Download CV" href="#" download="#" />
+          <ButtonLink text="Download CV" href={cv} download={cv} target="_blank"/>
         </div>
       </section>
     </>

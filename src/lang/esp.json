@@ -11,5 +11,10 @@
 	"main-greting": "Hola a todos",
 	"main-profession": "Soy ",
 	"main-description": "Cuento con mas de dos año de experencia trabajando con diferentes lenjuages de progragramacion, enfocado al desarrollo frontend, con conocimento en backend y desarrollo movil. Un apasionado por la tecnologia y a nunca para de aprender. Dejame mostrate mi trayectoria",
-	"main-button": "ver mas"
+	"main-button": "ver mas",
+	
+	"about-name": "Hola, mi nombre es ",
+	"about-country": " Soy un desarrollador web y móvil colombiano, con más de dos años de experiencia.",
+	"about-experince": "He trabajado con diferentes empresas en el desarrollo de sus sitios web, plataformas corporativas y aplicaciones móviles, con  participación en el proceso de diseño  y la experiencia del usuario, principalmente enfocado en el desarrollo front-end para productos digitales, me apasiona la tecnología, los retos y nunca parar de aparecer.",
+	"about-invited": "Si tienes una oferta de trabajo, una propuesta de proyecto o simplemente quieres saludarme, ponte en contacto conmigo."
 }

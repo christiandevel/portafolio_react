@@ -11,6 +11,10 @@
 	"main-greting": "Hi there",
 	"main-profession": "I Am ",
 	"main-description": "I have more than two years of experience working with different programming languages, focused on frontend development, with knowledge in backend and mobile development. I am passionate about technology and never stop learning. Let me show you my trajectory.",
-	"main-button": "see more"
+	"main-button": "see more",
 	
+	"about-name": "Hi, my name is ",
+	"about-country": " I'm a Colombian web and mobile developer, with more than two year of experience.",
+	"about-experince": "I have worked with different companies in the development of their websites, corporate platforms and mobile applications, with participation in the design process and user experience, mainly focused on front-end development for digital products, I am passionate about technology, challenges and never stop appearing.",
+	"about-invited": "If you have a job offer, a project proposal or just want to say hello, please contact me."
 }

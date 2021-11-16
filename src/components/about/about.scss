@@ -5,28 +5,27 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 0 1.5rem;
+	padding: 3.5rem 1.5rem;
 }
 
 .about-img {
-	width: 50%;
+	width: 55%;
 	display: block;
 	box-sizing: inherit;
 	img {
-		max-width: 100%;
+		width: 100%;
 		height: auto;
 	}
 }
 
 .about-info {
+	width: 90%;
 	margin: 5% auto;
-	text-align: justify;
-	font-size: 1.1rem;
+	font-size: 0.9rem;
 	padding-right: 0.5rem;
 	&_name {
 		font-weight: bold;
-		font-size: 1.3rem;
-		letter-spacing: 0.1rem;
+		font-size: 1.1rem;
 		span {
 			color: $main-color
 		}

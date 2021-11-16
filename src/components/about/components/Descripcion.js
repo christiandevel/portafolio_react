@@ -1,25 +1,22 @@
 import React from "react";
 
+import { FormattedMessage } from "react-intl";
+
 const Descripcion = () => {
   return (
     <div>
       <p className="about-info_name">
-        Hi, my name is <span>Christian</span>
+        <FormattedMessage id="about-name" defaultMessage="about-name" />
+        <span>Christian</span>
       </p>
       <p className="about-info_resume">
-        I'm a Colombian web and mobile developer, with more than a year of
-        experience.
+        <FormattedMessage id="about-country" defaultMessage="about-country" />
       </p>
       <p className="about-info_description">
-        I have worked with different companies in the development of their
-        websites and internal mobile applications, with some participation in
-        the design process of the user experience, mainly focused on front-end
-        development for digital products, I'm passionate about technology,
-        challenges and never stop appearing.
+        <FormattedMessage id="about-experince" defaultMessage="about-experince" />
       </p>
       <p className="about-info_contact">
-        If you have a job offer, a project proposal or just want to say hi
-        contact me.
+        <FormattedMessage id="about-invited" defaultMessage="about-invited" />
       </p>
     </div>
   );
