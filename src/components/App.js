@@ -6,6 +6,7 @@ import About from './about/About'
 import Skills from './skills/Skills'
 import Portafolio from './portafolio/Portafolio'
 import Blog from './blog/Blog'
+import Footer from "./footer/footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
 			<Skills/>
 			<Portafolio />
 			<Blog />
+			<Footer />
     </>
   );
 };
