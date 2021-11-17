@@ -1,4 +1,5 @@
 @import "./../../styles/globales.scss";
+@import "./../../styles/brakpoints.scss";
 
 .services {
   padding-top: 5rem;
@@ -11,6 +12,16 @@
   grid-template-columns: repeat(1, 80%);
   grid-template-rows: repeat(6, auto);
   justify-content: center;
+	@include media(tablet){
+		grid-template-columns: repeat(2, 35%);
+		grid-template-rows: repeat(3, auto);
+		grid-area: 1.5rem;
+		justify-content: space-evenly;
+	}
+	@include media(desktop-lg){
+		grid-template-columns: repeat(3, 25%);
+		grid-template-rows: repeat(2, auto);
+	}
 }
 
 .services-grid_box {
