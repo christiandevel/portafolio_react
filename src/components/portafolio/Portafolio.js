@@ -25,8 +25,12 @@ const Portafolio = () => {
   };
 
   const handleFilter = (palabra) => {
-    const nuevo = listPortafolio.filter((item) => item.filter === palabra);
-    setFilter(nuevo);
+		const nuevo = listPortafolio.filter((item) => item.filter === palabra);
+		if(palabra === 'portafolio-all-filter'){
+			setFilter(listPortafolio)
+		}else{
+			setFilter(nuevo);
+		}
   };
 
   
@@ -45,7 +49,7 @@ const Portafolio = () => {
       </div>
 
       <div className="portafolio-images">
-        {filter.filter(item => item.id != 0).map((proyecto, index) => (
+        {filter.filter(item => item.id !== 0).map((proyecto, index) => (
 					<div className="portafolio-images_caja">
 						<figure key={index} className="portafolio-images_figure">
 							<img src={proyecto.src} alt="proyecto"/>
