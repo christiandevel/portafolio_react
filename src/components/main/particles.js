@@ -60,7 +60,7 @@ const ViewParticles = () => {
               enable: false,
               value_area: 800,
             },
-            value: 10,
+            value: 30,
           },
           opacity: {
             value: 0.5,
