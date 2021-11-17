@@ -4,11 +4,14 @@ import React, { useState } from "react";
 import { listPortafolio } from "./components/data";
 
 import "./portafolio.scss";
+import 'animate.css'
 
 import ButtonLink from "../utils/buttonLink";
 import TitleSection from "../utils/titleSection";
 
 import Icons from './components/Icons'
+
+
 
 const Portafolio = () => {
   const [filter, setFilter] = useState(listPortafolio);
@@ -50,11 +53,14 @@ const Portafolio = () => {
 
       <div className="portafolio-images">
         {filter.filter(item => item.id !== 0).map((proyecto, index) => (
-					<div className="portafolio-images_caja">
+				
+					<div className="portafolio-images_caja animate__animated animate__bounce">
 						<figure key={index} className="portafolio-images_figure">
 							<img src={proyecto.src} alt="proyecto"/>
 						</figure>
 					</div>
+						
+			
         ))}
       </div>
 			
