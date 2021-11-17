@@ -53,9 +53,9 @@ const Portafolio = () => {
         {filter
           .filter((item) => item.id !== 0)
           .map((proyecto, index) => (
-            <div className="portafolio-images_caja animate__animated animate__backInRight">
+						<div key={index} className="portafolio-images_caja animate__animated animate__backInRight">
+							
               <figure
-                key={index}
                 className="portafolio-images_figure animate__animated animate__backInRight"
               >
                 <img
