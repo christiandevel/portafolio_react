@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 
 import { listPortafolio } from "./components/data";
@@ -26,14 +26,15 @@ const Portafolio = () => {
       return arreglo;
     }, []);
   };
+	
 
   const handleFilter = (palabra) => {
-		const nuevo = listPortafolio.filter((item) => item.filter === palabra);
-		if(palabra === 'portafolio-all-filter'){
-			setFilter(listPortafolio)
-		}else{
-			setFilter(nuevo);
-		}
+		const nuevo = listPortafolio.filter((item) => item.filter === palabra)
+			if(palabra === 'portafolio-all-filter'){
+				setFilter(listPortafolio)
+			}else{
+				setFilter(nuevo);
+			}
   };
 	
 	
@@ -56,10 +57,9 @@ const Portafolio = () => {
 
       <div className="portafolio-images">
         {filter.filter(item => item.id !== 0).map((proyecto, index) => (
-				
-					<div className="portafolio-images_caja animate__animated animate__bounce">
-						<figure key={index} className="portafolio-images_figure">
-							<img src={proyecto.src} alt="proyecto"/>
+					<div className="portafolio-images_caja animate__animated animate__backInRight">
+						<figure key={index} className="portafolio-images_figure animate__animated animate__backInRight">
+							<img src={proyecto.src} alt="proyecto" className="animate__animated animate__backInRight"/>
 						</figure>
 					</div>
 						
