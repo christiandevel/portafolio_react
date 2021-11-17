@@ -5,7 +5,6 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons'
 
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faItunesNote } from '@fortawesome/free-brands-svg-icons'
 
 export const socialMedia = [
@@ -37,13 +36,6 @@ export const socialMedia = [
 		name: "twitter",
 		url: "https://twitter.com/chrisceba"
 	},
-	// {
-	// 	id: 5,
-	// 	icon: faGithub,
-	// 	link: "link",
-	// 	name: "github",
-	// 	url: "https://github.com/christiandevel"
-	// },
 	{
 		id: 1,
 		icon: faItunesNote,
